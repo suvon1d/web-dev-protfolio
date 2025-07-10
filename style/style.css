@@ -29,6 +29,19 @@
     padding: 15px  30px;  
 }
 
+.description{
+    font-size: 18px;
+}
+
+.section-title{
+    font-weight: bold;
+    font-size: 35px;
+}
+
+.secoundry-bg{
+    background-color: #FFF8F3;
+}
+
 /* header background  */
 .header{
     background-image: url('../images/developer.png'), url('../images/header_bg.png');
@@ -79,9 +92,38 @@ nav li a{
     font-weight: bold;
     font-size: 85px;
 }
-.baner-description{
-    font-size: 18px;
-}
+
 .baner-portfolio{
     max-width: 580px;
+}
+
+/* main style */
+
+main{
+    max-width: 1200px;
+    margin: 0 auto;
+    
+}
+
+/* about section style */
+
+.about{
+    border-radius: 10px;
+    text-align: center;
+    margin: 120px;
+    padding: 130px 130px;
+    
+}
+
+.about-items{
+    display: flex;
+    justify-content: space-around;
+}
+
+.item-title{
+    font-size: 20px;
+}
+.item-description{
+    font-weight: bold;
+    font-size: 20px;
 }
